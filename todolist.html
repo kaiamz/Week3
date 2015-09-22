@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/todolist.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/todolist2.js"></script>
+    <title>To Do List</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="enterTask" class="col-md-12">
+        <h1>To Do List</h1>
+        <p>Enter things you need to do. Mark the box when done.</p>
+
+        <form>
+          <label for="newtask">Add a task</label>
+          <input id="newtask" type="text" placholder="New Task"></input>
+          <input type="submit" class="btn btn-danger" value="Add Task"></input>
+        </form>
+      </div>
+
+      <div id="showTask" class="col-md-6">
+        <h2>Things To Do</h2>
+        <ul id="showTaskList">
+        </ul>
+      </div>
+
+    </div>
+  </body>
+
+</html>

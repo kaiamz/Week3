@@ -1,0 +1,26 @@
+#show-contact {
+  display: none;
+  text-transform: capitalize;
+}
+
+.contact {
+  cursor: pointer;
+  color: green;
+  text-transform: capitalize;
+}
+
+.contact:hover {
+  text-decoration: underline;
+}
+
+.form-control {
+  text-transform: capitalize;
+}
+
+#new-email {
+  text-transform: none;
+}
+
+.email {
+  text-transform: none;
+}
